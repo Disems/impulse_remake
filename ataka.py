@@ -16,4 +16,4 @@ method = input("Method <SMS/EMAIL/NTP/UDP/SYN/ICMP/POD/SLOWLORIS/MEMCACHED/HTTP>
 time = input("Time <time in secounds>: ")
 threads = input("Threads <threads count (1-200)>: ")
 target = input("Target <IP:PORT, URL, PHONE с +373>: ")
-os.system(f"python3 Impulse/impulse.py —method {method} —time {time} —threads {threads} —target {target} ")
+os.system(f"python3 Impulse/impulse.py --method {method} --time {time} --threads {threads} --target {target} ")
